@@ -2,7 +2,7 @@ import axios from "axios";
 
 class User {
   constructor() {
-    this.url = "https://hereby-fixtures-dee-ended.trycloudflare.com/";
+    this.url = "https://grip-cuts-metadata-blade.trycloudflare.com/";
     this.token= localStorage.getItem("token");
     if (!User.instance) {
       User.instance = this;

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export async function prosesPembayaran({ items, note, alamat, total, router }) {
-  const url = "https://hereby-fixtures-dee-ended.trycloudflare.com/";
+  const url = "https://grip-cuts-metadata-blade.trycloudflare.com/";
   const token= localStorage.getItem("token");
 
   if (!token) {

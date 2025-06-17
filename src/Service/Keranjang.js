@@ -2,7 +2,7 @@ import axios from "axios";
 
 class Keranjang {
   constructor() {
-    this.url = "https://hereby-fixtures-dee-ended.trycloudflare.com/";
+    this.url = "https://grip-cuts-metadata-blade.trycloudflare.com/";
     this.token = localStorage.getItem("token");
   }
 
